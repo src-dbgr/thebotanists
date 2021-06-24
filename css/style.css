@@ -1,0 +1,1161 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+.cc-color-override-73853358 {
+  opacity: 0.8 !important;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #505962;
+}
+
+.offset:before {
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
+
+/*-- Navbar --*/
+
+#navbarmain {
+  width: 100vw;
+}
+
+#navbarResponsive {
+  background-color: transparent;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-toggler {
+  margin-right: 2%;
+}
+
+.navbar-toggler:focus {
+  outline-color: #63414a;
+  outline-width: 3px;
+}
+
+.navbar-brand img {
+  height: 2rem;
+  opacity: 0.7;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding-top: 0.8rem;
+  background: -webkit-linear-gradient(320deg, #8e4e62 25%, #849974 75%);
+  background-position: 95%;
+  background-size: 180% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #899778;
+  text-shadow: 0.1px 0.1px 0.1px #849974 !important;
+}
+
+/*atention this is just the div encapsuling the logo*/
+.mainlogo {
+  height: calc(100vh - 99px);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  background: rgba(61, 50, 48, 0.7);
+}
+
+/*this is the main logo*/
+#logowrapper {
+  height: 100vh;
+  opacity: 0.95;
+}
+
+#logowrapper,
+#merch,
+#band,
+.jumbotron {
+  background: rgb(50, 47, 49);
+  background: radial-gradient(
+    circle,
+    rgba(50, 47, 49, 1) 0%,
+    rgba(24, 22, 23, 1) 100%
+  );
+
+  background: -moz-radial-gradient(
+    circle,
+    rgba(50, 47, 49, 1) 0%,
+    rgba(24, 22, 23, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(50, 47, 49, 1) 0%,
+    rgba(24, 22, 23, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(50, 47, 49, 1) 0%,
+    rgba(24, 22, 23, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#322f31",endColorstr="#181617",GradientType=1);
+}
+
+/*-- Main IMAGE Start--*/
+
+@keyframes leaf0white {
+  0% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(-25deg);
+  }
+  15% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(0deg);
+  }
+  50% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(-25deg);
+  }
+}
+
+@keyframes leaf3white {
+  0% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(25deg);
+  }
+  15% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(0deg);
+  }
+  50% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(25deg);
+  }
+  100% {
+    transform-origin: 50% 94.5%;
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes leaf0 {
+  0% {
+    transform-origin: 50% 95%;
+    transform: rotate(0deg);
+  }
+  15% {
+    transform-origin: 50% 95%;
+    transform: rotate(16deg);
+  }
+  50% {
+    transform-origin: 50% 95%;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes leaf1 {
+  0% {
+    transform-origin: 50% 95%;
+    transform: rotate(0deg);
+  }
+  15% {
+    transform-origin: 50% 95%;
+    transform: rotate(10deg);
+  }
+  50% {
+    transform-origin: 50% 95%;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes leaf3 {
+  0% {
+    transform-origin: 51% 95%;
+    transform: rotate(0deg);
+  }
+  15% {
+    transform-origin: 51% 95%;
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform-origin: 51% 95%;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform-origin: 51% 95%;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes leaf4 {
+  0% {
+    transform-origin: 50% 95%;
+    transform: rotate(0deg);
+  }
+  15% {
+    transform-origin: 50% 95%;
+    transform: rotate(-16deg);
+  }
+  50% {
+    transform-origin: 50% 95%;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fill {
+  50% {
+    fill: #849974;
+  }
+  51% {
+    fill: #97a88a;
+  }
+  52% {
+    fill: #849974;
+  }
+  54% {
+    fill: #97a88a;
+  }
+  56% {
+    fill: #849974;
+  }
+}
+
+.path {
+  animation: fill 10s ease-in-out infinite;
+}
+
+#_x30_leaf_white {
+  animation: leaf0white 10s ease-in-out infinite;
+}
+
+#_x33_leaf_white {
+  animation: leaf3white 10s ease-in-out infinite;
+}
+
+#_x30_leaf {
+  animation: leaf0 10s ease-in-out infinite;
+}
+
+#_x31_leaf {
+  animation: leaf1 10s ease-in-out infinite;
+}
+
+#_x33_leaf {
+  animation: leaf3 10s ease-in-out infinite;
+}
+
+#_x34_leaf {
+  animation: leaf4 10s ease-in-out infinite;
+}
+
+#btmainlogo {
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/*-- Main IMAGE END--*/
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/*-- Slider --*/
+
+#firstsection {
+  height: 100vh;
+  background-size: cover;
+}
+
+/*-- BAND SECTION --*/
+/*-- NEW SECTION BAND START --*/
+
+#band {
+  margin: 0;
+}
+
+#bandCarousel {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*-- NEW SECTION BAND END --*/
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.jumbotron {
+  border-radius: 0;
+  padding: 2rem 0 2rem;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #505962;
+  margin: 0 auto 2rem;
+}
+
+/*-- TOUR --*/
+
+#tourwrap {
+  margin-bottom: 50px;
+}
+
+#tourcaption,
+#musiccaption {
+  color: #3b3d3c;
+}
+
+.tourwrapper {
+  overflow: hidden;
+}
+
+.tourcontainer {
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main {
+  height: 100%;
+  width: 55%;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.concertshow {
+  background-color: #ededed;
+  width: 90%;
+  height: 55%;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 0;
+  box-shadow: 2px 2px 1px rgba(84, 84, 84, 0.5);
+}
+
+.date a {
+  color: #849974 !important;
+}
+
+.date a:hover,
+#googlecalendar a:hover {
+  color: #63414a !important;
+}
+
+#googlecalendar a {
+  font-weight: 600;
+  font-size: 14pt;
+  color: #849974;
+}
+
+#calendarcontainer {
+  position: relative;
+  margin: 0;
+}
+
+#lastcalendarelem {
+  height: 200px;
+}
+
+#googlecalendar svg {
+  position: relative;
+  height: 90px;
+  width: 90px;
+  left: 0;
+  top: 0;
+  margin: auto;
+}
+
+#googlecalendar {
+  height: 100%;
+  overflow: hidden;
+}
+
+#calendardate {
+  height: 80%;
+}
+
+#calendaralldates {
+  height: 20%;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+object,
+embed {
+  height: 100%;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.box {
+  background: #ccc;
+  height: 45px;
+}
+
+ul.main {
+  list-style: none;
+  max-width: 75%;
+  margin: 20px auto;
+}
+
+.date {
+  width: 150px;
+  padding: 15% 1% 0 0;
+  float: left;
+  padding: 20px;
+}
+
+.date h3 {
+  font-size: 1.5em;
+  color: #63414a;
+  font-weight: bold;
+}
+
+.date p {
+  font-size: 0.8em;
+}
+
+.events {
+  float: left;
+  border-left: 1px solid #ccc;
+}
+
+.events-detail li {
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+  line-height: 22px;
+  transition: ease 0.4s all;
+}
+
+#ticket1:hover,
+#ticket2:hover,
+#ticket3:hover {
+  background: #899778;
+  font-weight: bold;
+}
+
+.event-time {
+  font-weight: 900;
+}
+
+.events-detail li a {
+  text-decoration: none;
+  color: #444;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.event-location {
+  font-size: 0.8em;
+  color: tomato;
+  margin-left: 70px;
+}
+
+.date {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.events {
+  border: none;
+  width: 100%;
+  margin-top: 0;
+}
+
+.events-detail {
+  padding: 0;
+}
+
+li.date p {
+  margin: 0;
+}
+
+/*-- Band --*/
+
+#band {
+  padding-bottom: 50px;
+}
+
+.bandpolaroid,
+.col-sm-4 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bandpolaroid {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.bandcard:hover {
+  opacity: 1;
+}
+
+.memberimg {
+  border-radius: 0%;
+  border: black;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #a2a2a2;
+  overflow: hidden;
+}
+
+.memberdescr {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #443a38;
+  text-decoration: none;
+  border-width: 4px;
+  border: black;
+  background-color: #a2a2a2;
+}
+
+.memberdescr h2 {
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.heading {
+  color: #899778;
+}
+
+.bandpolaroid a:hover {
+  text-decoration: none;
+}
+
+.bandpolaroid img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.bandpolaroid img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.logobox {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 25%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.leaf img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 0.6;
+}
+
+.bandsuper {
+  height: 700px;
+  position: relative;
+}
+
+.bandchild {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.bandchildinner {
+  padding-top: 0 !important;
+}
+
+/*-- Start Music Section --*/
+/*
+.col-md-6 {
+  margin: 0;
+}
+
+.card {
+  margin: 2rem;
+  height: 60%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+*/
+/*-- Mp3 Player Section Start--*/
+section {
+  position: relative;
+  width: 400px;
+  margin: 60px auto;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#playerimg {
+  display: block;
+}
+
+#playerheader {
+  background: #ecf0f1;
+  max-height: 190px;
+  background: rgba(236, 240, 241, 0.9);
+  overflow: hidden;
+}
+
+#playerheader h1 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+#playerheader h2 {
+  margin: 5px 0;
+  color: rgba(149, 165, 166, 1);
+}
+
+.left {
+  padding: 30px 30px;
+  float: left;
+  width: 190px;
+}
+
+.right {
+  padding: 30px 0;
+  float: left;
+  width: 150px;
+  text-align: center;
+}
+
+#play {
+  height: 40px;
+  width: 40px;
+  border: 0;
+  background: url("../img/play.png") center center no-repeat;
+}
+
+#pause {
+  background: url("../img/pause.png") center center no-repeat;
+  height: 30px;
+  width: 30px;
+  border: 0;
+}
+
+/*-- Mp3 Player Section End --*/
+
+#music {
+  margin-bottom: 50px;
+}
+
+/*-- End Music Section --*/
+
+/*-- Pop up Button Band --*/
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: calc(100vh / 2 - 100px) auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 3px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 28pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  margin: 0;
+}
+
+.close {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background: rgba(61, 50, 48, 0.3);
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/*-- Pop up Button Band END --*/
+
+/*-- Merch --*/
+.merchitemwrapper {
+  margin: 0;
+  position: relative;
+  width: 50vw;
+  margin: 60px auto;
+}
+
+.card-body h4 {
+  font-size: 14pt;
+}
+
+.merchimgwrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card,
+.card-img-top {
+  border: 1px;
+}
+
+/*-- Contact --*/
+
+#contcactlane {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #525252;
+  color: #a2a2a2;
+  padding: 2rem 0 3rem;
+  margin-top: 1rem;
+  padding-bottom: 0;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: #322f31;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+
+footer a:hover {
+  color: #899778;
+}
+
+hr.socket {
+  border-top: 0.2rem solid #a2a2a2;
+  width: 100%;
+}
+
+/*-- MAIL START --*/
+
+#headingOne,
+#collapsecard {
+  border-radius: 0%;
+  border-style: none;
+  background-color: #a2a2a2;
+}
+
+#contactsection {
+  width: 600px;
+  overflow: hidden;
+}
+
+#contactsection li {
+  font-size: 10pt;
+}
+
+#mailbtn {
+  background-color: #444;
+  border-color: #444;
+}
+
+#mailbtn:hover {
+  background-color: #849974;
+  border-color: #849984;
+  color: #443a38;
+}
+
+#collapsebtn {
+  color: #505962;
+  font-weight: bold;
+}
+
+#mailsection {
+  background-color: #525252;
+}
+
+#mofamofa,
+.mb-4 {
+  padding-top: 3px;
+  background-color: #63414a;
+}
+
+.btn-primary {
+  background-color: #444 !important;
+}
+
+.btn-primary:hover {
+  background-color: #63414a !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #849974 !important;
+}
+
+#mailsection input,
+textarea,
+.btn {
+  border: none !important;
+  border-radius: 0% !important;
+}
+
+#recapcha {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+#recaptchacontainer {
+  opacity: 0.75;
+  padding-left: 0;
+}
+
+#datenschutz {
+  margin-right: 20px;
+  text-align: right;
+  font-size: 11pt;
+}
+
+#datenschutz a {
+  color: #a2a2a2;
+}
+
+/*-- MAIL END --*/
+
+/*-- Mail Chimp Start --*/
+
+#headingTwo,
+#collapsebtntwo {
+  background-color: #525252;
+  color: #a2a2a2 !important;
+  font-weight: bold;
+}
+
+#mc_embed_signup_scroll {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 650px;
+  padding: 30px;
+  background: #333;
+  color: #a2a2a2;
+}
+
+#signuphead {
+  width: calc(100% + 60px);
+  height: 87.5px;
+  background: #444;
+  margin-top: -30px;
+  margin-left: -30px;
+  padding-top: 30px;
+}
+
+#signuphead h5 {
+  color: #a2a2a2;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  font-weight: 900;
+}
+
+.indicates-required {
+  margin-top: 10px;
+  font-size: 10pt;
+}
+
+.mc-field-group [type="email"],
+.mc-field-group [type="text"],
+#mce-MMERGE2 {
+  border: #333;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 30%;
+  width: 50%;
+  height: calc(1.5em + 0.75rem + 2px);
+  float: right;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-top: 6px;
+}
+
+.mc-field-group label {
+  height: calc(1.5em + 0.75rem + 2px);
+}
+
+.clear .button {
+  background-color: #444;
+  border: none;
+}
+
+.clear .button:hover {
+  background-color: #63414a;
+}
+
+.content__gdprLegal a {
+  color: #849974;
+}
+
+.content__gdprLegal {
+  text-align: justify;
+}
+
+/*-- Mail Chimp End --*/
+
+.button,
+.cc-btn,
+.cc-dismiss,
+.btn-primary {
+  color: rgb(17, 16, 17) !important;
+  font-weight: bolder;
+  background-size: 200% 100%;
+  background-position: 40%;
+  border: none !important;
+  transition: background-position 0.3s ease-out;
+}
+
+.cc-btn,
+.cc-dismiss,
+.btn-primary {
+  background-image: linear-gradient(320deg, #889375 25%, #8e4e62 75%);
+}
+
+.button {
+  background-image: linear-gradient(320deg, #525252 25%, #8e4e62 75%);
+}
+
+.button:hover,
+.cc-btn:hover,
+.cc-dismiss:hover,
+.btn-primary:hover {
+  cursor: pointer;
+  background-position: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+  .col-md-6 {
+    width: 96.5vw;
+  }
+
+  #contactsection {
+    width: 100%;
+  }
+  .merchitemwrapper {
+    margin: 0;
+    position: relative;
+    width: 100vw;
+  }
+
+  section {
+    width: 100%;
+    max-width: 400px;
+    font-size: 10pt;
+  }
+
+  section .left,
+  section .right {
+    width: 50%;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .bandpolaroid {
+    max-width: 80%;
+  }
+
+  .bandsuper {
+    height: 550px;
+  }
+
+  .bandheadersup {
+    padding-bottom: 0 !important;
+  }
+
+  .bandheaderchild {
+    margin-bottom: 0;
+  }
+
+  .mc-field-group [type="email"],
+  .mc-field-group [type="text"],
+  #mce-MMERGE2 {
+    width: calc(90% - 110px);
+    margin-right: 0%;
+  }
+
+  #recaptchaparent {
+    margin: 0;
+  }
+
+  #recapcha {
+    margin-left: calc((100% - 286px) / 2);
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    background: -webkit-linear-gradient(320deg, #8e4e62 10%, #849974 50%);
+    background-position: 40%;
+    background-size: 30% 500%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
