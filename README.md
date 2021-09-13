@@ -6,7 +6,7 @@ Since the project is on hold the website will be discontinued
 
 ## Visit online
 
-Website might still be available under [https://thebotanists.band](thebotanists.band)
+Website might still be available under [thebotanists.band](https://thebotanists.band)
 
 ## Hero section screenshot
 
