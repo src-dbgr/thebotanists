@@ -2,7 +2,7 @@
 
 ## Initial implementation
 
-Since the project is on hold the website will be discontinued
+Since the project is on hold, we are discontinuing the website.
 
 ## Visit online
 
